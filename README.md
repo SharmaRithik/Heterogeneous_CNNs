@@ -4,7 +4,7 @@ Dense: g++ -std=c++17 -O3 cifar_dense.cpp
 
 sparse: g++ -std=c++17 -O3 cifar_sparse.cpp
 
-Test: ./test_cifar10.sh (use g++ -std=c++17 -O3 <filename>, to get a.out)
+Test: ./test_cifar10.sh (use g++ -std=c++17 -O3 filename, to get a.out)
 
 ### Model Training and Pruning Log
 
